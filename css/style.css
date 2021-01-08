@@ -1,0 +1,119 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.hero-background {
+  z-index: 1;
+  overflow: hidden;
+}
+
+.hero-absolute {
+  max-width: 600px;
+  position: relative;
+  width: 70vw;
+  top: 100px;
+  position: absolute;
+  z-index: 3;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0px auto 10px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info-box {
+  width: 310px;
+  position: relative;
+  background: white;
+  margin: 0 auto;
+  top: -10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.map {
+  height: 550px;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.ip-input {
+  position: relative;
+  bottom: 50px;
+}
+
+.ip-input p {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 300px;
+  height: 40px;
+}
+
+.group input {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  outline: none;
+  width: 300px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.group .arrow-div {
+  background: black;
+  width: 60px;
+  height: 41px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.group .arrow-div img {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  width: 30px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 10px;
+  color: #555555;
+}
+/*# sourceMappingURL=style.css.map */
