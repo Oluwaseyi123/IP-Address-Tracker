@@ -40,10 +40,13 @@ function displayInfo(res){
 function checkIpAddress(){
     const getIpAddress = new GetIpAddress()
     getIpAddress.getIp().then( res => {
+        let ipAddress = document.querySelector('.ip-address')
+       
         longitude = res.location.lng
         latitude = res.location.lat
         displayInfo(res)
         showMap()
+        ipAddress.value = ''
         
     }).catch((err) => {
         console.log(err)
